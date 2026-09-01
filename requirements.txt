@@ -1,0 +1,5 @@
+# Recommended Python: 3.9-3.12
+# Direct dependencies used by prioritize_adc_targets.final.py
+numpy==1.26.4
+pandas==2.2.3
+openai==1.109.1
