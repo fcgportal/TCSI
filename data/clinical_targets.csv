@@ -1,0 +1,40 @@
+Gene,Highest Stage,Approval cancer types
+FOLR1,Approval,"FRα-positive, platinum-resistant epithelial ovarian cancer, fallopian tube cancer, and primary peritoneal cancer"
+F3,Approval,Recurrent or metastatic cervical cancer after progression on/after chemotherapy
+TNFRSF8,Approval,"Multiple CD30-positive lymphomas, including: classical Hodgkin lymphoma, systemic anaplastic large cell lymphoma, primary cutaneous ALCL, CD30-positive peripheral T-cell lymphomas, and CD30-positive mycosis fungoides / other CD30+ large-cell lymphomas (various lines/settings)"
+ERBB2,Approval,Breast cancer: HER2-positive metastatic and early-stage disease and HR+ HER2-low/ultralow metastatic breast cancer; Tumor-agnostic (pancancer): Unresectable or metastatic HER2-positive solid tumors after prior therapy
+PVRL4,Approval,"Locally advanced or metastatic urothelial carcinoma (including bladder and upper-tract UC), in previously treated patients and, in combination with pembrolizumab, as first-line therapy in many regions"
+TACSTD2,Approval,Triple-negative breast cancer: Unresectable locally advanced or metastatic TNBC after ≥2 prior systemic therapies (at least one for metastatic disease); HR-positive / HER2-negative breast cancer: Unresectable or metastatic HR+/HER2- breast cancer after endocrine-based therapy and ≥2 additional systemic therapies; EGFR-mutated non-small cell lung cancer: Locally advanced or metastatic EGFR-mutated NSCLC after prior EGFR-directed therapy and platinum-based chemotherapy; Metastatic urothelial carcinoma – historical / withdrawn (US)
+ERBB3,2,
+CLDN18,3,
+DLL3,3,
+MET,3,
+CDH6,2/3,
+ITGB6,3,
+ROR1,2/3,
+CD38,1/2,
+LY75,1,
+SEZ6,1,
+TFRC,1/2,
+CDH17,1,
+FOLH1,1/2,
+MSLN,2,
+CD276,2,
+CEACAM5,1/2,
+PTK7,1,
+CD46,2,
+EPCAM,1,
+CD70,1/2,
+VTCN1,2,
+SLC39A6,2,
+EPHA5,1,
+EGFR,2,
+GPC3,1/2,
+CLDN1,1/2,
+AXL,2,
+ROR2,2,
+TM4SF1,1,
+LRRC15,1,
+CLDN6,2,
+MUC1,2,
+DLK1,1,
