@@ -211,49 +211,6 @@ The output contains one row per patient–gene pair:
 | `Rationale` | Rule that generated the tier assignment. |
 | `Literature Summary` | Azure OpenAI-generated text for Tier 1 and Tier 2 targets; blank with `--no-enrich`. |
 
-## Code Ocean
-
-After importing this repository into Code Ocean, configure the following secret environment variables in the capsule rather than committing them to GitHub:
-
-```text
-AZURE_OPENAI_API_KEY
-AZURE_OPENAI_ENDPOINT
-AZURE_OPENAI_API_VERSION
-```
-
-The default Code Ocean run can use:
-
-```bash
-mkdir -p /results
-
-python /code/prioritize_adc_targets.final.py \
-  --clinical /code/data/clinical_targets.csv \
-  --expression /code/data/patient_scores.csv \
-  --output /results/TCSI_prioritized_targets.csv \
-  --azure-deployment gpt-4o
-```
-
-For a deterministic Code Ocean verification run that does not depend on an external API, use:
-
-```bash
-mkdir -p /results
-
-python /code/prioritize_adc_targets.final.py \
-  --clinical /code/data/clinical_targets.csv \
-  --expression /code/data/patient_scores.csv \
-  --output /results/TCSI_prioritized_targets.no_enrich.csv \
-  --no-enrich
-```
-
-The capsule should use the package versions in `requirements.txt`, commit all code and environment changes, and write final artifacts to `/results` before starting a Reproducible Run.
-
-## Reproducibility notes
-
-- The tier-assignment component is deterministic for fixed code and input files.
-- Azure-generated literature text can vary across runs, model deployments, API versions, and service updates.
-- Retain the exact inputs, dependency versions, Azure deployment name, API version, temperature, run date, and generated output used in the manuscript.
-- Use `--no-enrich` when a reproducible run must not depend on an external API.
-- The committed result file may contain literature summaries generated during an earlier Azure-enabled run; a `--no-enrich` run reproduces the tiering columns but leaves those summaries blank.
 
 ## Research-use statement
 
